@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, input, button {
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #F9F9F9;
+    color: #44546A;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.clock {
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 6rem;
+    gap: 2rem;
+}
+
+.hour { 
+    padding: 1rem;
+    background: #fff;
+    border-radius: 5px;
+}
+.minutes { 
+    padding: 1rem;
+    background: #fff;
+    border-radius: 5px;
+}
